@@ -1,0 +1,42 @@
+.project {
+    padding: 60px 0px;
+}
+.project__title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 50px;
+    color: #21243D;
+
+    margin-bottom: 30px;
+}
+.project__info {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 24px;
+}
+.project__data {
+    background-color: #FF7C7C;
+    border-radius: 16px;
+
+    font-weight: 900;
+    font-size: 18px;
+    color: #FFFFFF;
+
+    padding: 5px;
+    margin-right: 18px;
+}
+.project__program {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #21243D;
+
+}
+.project__text {
+    margin-bottom: 46px;
+}
+.project__image img{
+    max-width: 100%;
+    margin-bottom: 54px;
+}
