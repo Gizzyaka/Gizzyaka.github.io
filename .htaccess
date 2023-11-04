@@ -1,4 +1,9 @@
-RewriteEngine on
+Options +FollowSymLinks
+RewriteEngine On
+
+# Проверяем, что запрашиваемый файл с расширением .html существует
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^(.*)$ $1.html
+
+# Перенаправляем запрос без .html
+RewriteRule ^(.*)$ $1.html [L]
